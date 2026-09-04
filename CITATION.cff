@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: "CIMFE: Wearable-Sensor-Based Serum Creatinine (sCr) Change Prediction"
+title: "CIMFE: Clinically-Informed Multi-level Feature Extraction for sCr prediction"
 type: software
 authors:
   - family-names: "Seo"

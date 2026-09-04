@@ -90,7 +90,7 @@ If you use this code, please cite the software via its Zenodo DOI:
 ```bibtex
 @software{cimfe2026,
   author  = {Seo, Hyunwoo},
-  title   = {CIMFE: Wearable-Sensor-Based Serum Creatinine (sCr) Change Prediction},
+  title   = {CIMFE: Clinically-Informed Multi-level Feature Extraction for sCr prediction},
   year    = {2026},
   doi     = {10.5281/zenodo.22295979},
   url     = {https://github.com/hwseo95/CIMFE}
