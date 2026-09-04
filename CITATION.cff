@@ -3,9 +3,9 @@ message: "If you use this software, please cite it as below."
 title: "CIMFE: Wearable-Sensor-Based Serum Creatinine (sCr) Change Prediction"
 type: software
 authors:
-  - family-names: "TODO"
-    given-names: "TODO"
-    affiliation: "TODO: institution"
+  - family-names: "Seo"
+    given-names: "Hyunwoo"
+    affiliation: "Ulsan National Institute of Science and Technology (UNIST)"
 repository-code: "https://github.com/hwseo95/CIMFE"
 license: MIT
 version: 0.1.0
@@ -13,3 +13,38 @@ date-released: "2026-01-01"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.22295979"
+preferred-citation:
+  type: article
+  title: "An All-in-One Wearable Platform Offers a Continuous Assessment and Early Diagnosis of Acute Kidney Injury for Outdoor Workers"
+  # TODO: fill in once published -- journal/volume/issue/pages/year/doi
+  authors:
+    - family-names: "Yi"
+      given-names: "Hoon"
+    - family-names: "Chicas"
+      given-names: "Roxana C."
+    - family-names: "Seo"
+      given-names: "Hyunwoo"
+    - family-names: "Liu"
+      given-names: "Yixuan"
+    - family-names: "Ban"
+      given-names: "Seunghyeb"
+    - family-names: "Kim"
+      given-names: "Hodam"
+    - family-names: "Kang"
+      given-names: "Tae Woog"
+    - family-names: "Lee"
+      given-names: "Jimin"
+    - family-names: "Kim"
+      given-names: "Ka Ram"
+    - family-names: "Ruiz"
+      given-names: "Ernesto"
+    - family-names: "Sands"
+      given-names: "Jeff M."
+    - family-names: "Lim"
+      given-names: "Chiehyeon"
+    - family-names: "Xiong"
+      given-names: "Li"
+    - family-names: "Hertzberg"
+      given-names: "Vicki"
+    - family-names: "Yeo"
+      given-names: "Woon-Hong"

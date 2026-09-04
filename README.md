@@ -2,8 +2,14 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22295979.svg)](https://doi.org/10.5281/zenodo.22295979)
 
-**Supplementary code for:** TODO: paper title, authors, venue/year, and a link (DOI or
-arXiv) once available.
+**Supplementary code for:**
+
+> **An All-in-One Wearable Platform Offers a Continuous Assessment and Early Diagnosis
+> of Acute Kidney Injury for Outdoor Workers**
+> Hoon Yi, Roxana C. Chicas, Hyunwoo Seo, Yixuan Liu, Seunghyeb Ban, Hodam Kim, Tae Woog
+> Kang, Jimin Lee, Ka Ram Kim, Ernesto Ruiz, Jeff M. Sands, Chiehyeon Lim, Li Xiong,
+> Vicki Hertzberg, Woon-Hong Yeo
+> TODO: journal/venue, year, and a link (DOI or arXiv) once available.
 
 This repository covers the model-side analysis of the paper: self-supervised
 pretraining of the CIMFE patch-transformer encoder on wearable sensor streams (heart
@@ -79,11 +85,11 @@ so `scripts/` and `analysis/` can `import cimfe` / `import baselines` directly.
 
 ## Citation
 
-If you use this code, please cite it via its Zenodo DOI:
+If you use this code, please cite the software via its Zenodo DOI:
 
 ```bibtex
 @software{cimfe2026,
-  author  = {TODO},
+  author  = {Seo, Hyunwoo},
   title   = {CIMFE: Wearable-Sensor-Based Serum Creatinine (sCr) Change Prediction},
   year    = {2026},
   doi     = {10.5281/zenodo.22295979},
@@ -91,10 +97,12 @@ If you use this code, please cite it via its Zenodo DOI:
 }
 ```
 
+Once the accompanying paper above is published, please also (or instead) cite it --
+this section will be updated with its full journal reference and DOI.
+
 See [`CITATION.cff`](CITATION.cff) for the canonical, machine-readable citation metadata
-(also used by GitHub's "Cite this repository" button). Once the accompanying paper is
-published, please cite that instead/in addition -- this section will be updated with
-its full reference.
+(also used by GitHub's "Cite this repository" button), which includes both the software
+citation and a `preferred-citation` entry for the paper.
 
 ## License
 
