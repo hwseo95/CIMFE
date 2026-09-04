@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+._*
+.nfs*
+
+# Training artifacts
+outputs/
+logs/
+logs_dl/
+*.log
+*.pth
+*.pt
+events.out.tfevents.*
+
+# Data (never commit real subject data)
+data/*
+!data/README.md
+
+# Editors / envs
+.vscode/
+.idea/
+venv/
+.venv/

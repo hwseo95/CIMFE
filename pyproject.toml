@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cimfe"
+version = "0.1.0"
+description = "CIMFE: self-supervised patch encoder for wearable-sensor-based serum creatinine (sCr) change prediction"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+authors = [
+    { name = "TODO: add author name(s)" },
+]
+dependencies = [
+    "torch>=2.0",
+    "numpy>=1.23",
+    "pandas>=1.5",
+    "scikit-learn>=1.2",
+    "openpyxl>=3.0",
+    "tensorboardX>=2.6",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

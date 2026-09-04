@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "CIMFE: Wearable-Sensor-Based Serum Creatinine (sCr) Change Prediction"
+type: software
+authors:
+  - family-names: "TODO"
+    given-names: "TODO"
+    affiliation: "TODO: institution"
+repository-code: "https://github.com/TODO/CIMFE"
+license: MIT
+version: 0.1.0
+date-released: "2026-01-01"
