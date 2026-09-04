@@ -1,5 +1,7 @@
 # CIMFE
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22295979.svg)](https://doi.org/10.5281/zenodo.22295979)
+
 **Supplementary code for:** TODO: paper title, authors, venue/year, and a link (DOI or
 arXiv) once available.
 
@@ -75,6 +77,25 @@ data/               (empty) expected data layout, see data/README.md
 Both `cimfe` and `baselines` are installed as top-level packages by `pip install -e .`,
 so `scripts/` and `analysis/` can `import cimfe` / `import baselines` directly.
 
+## Citation
+
+If you use this code, please cite it via its Zenodo DOI:
+
+```bibtex
+@software{cimfe2026,
+  author  = {TODO},
+  title   = {CIMFE: Wearable-Sensor-Based Serum Creatinine (sCr) Change Prediction},
+  year    = {2026},
+  doi     = {10.5281/zenodo.22295979},
+  url     = {https://github.com/hwseo95/CIMFE}
+}
+```
+
+See [`CITATION.cff`](CITATION.cff) for the canonical, machine-readable citation metadata
+(also used by GitHub's "Cite this repository" button). Once the accompanying paper is
+published, please cite that instead/in addition -- this section will be updated with
+its full reference.
+
 ## License
 
-MIT, see [`LICENSE`](LICENSE). Please cite this work using [`CITATION.cff`](CITATION.cff).
+MIT, see [`LICENSE`](LICENSE).

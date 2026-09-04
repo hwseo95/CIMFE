@@ -10,7 +10,6 @@ repository-code: "https://github.com/hwseo95/CIMFE"
 license: MIT
 version: 0.1.0
 date-released: "2026-01-01"
-# TODO: once a Zenodo DOI is minted for this release, add e.g.:
-# identifiers:
-#   - type: doi
-#     value: "10.5281/zenodo.XXXXXXX"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22295979"
