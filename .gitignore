@@ -28,6 +28,12 @@ events.out.tfevents.*
 data/*
 !data/README.md
 
+# Defense-in-depth: block the exact file types the source data comes in
+# (label.xlsx, per-subject F###.csv) anywhere in the repo, not just under data/.
+*.xlsx
+*.xls
+*.csv
+
 # Editors / envs
 .vscode/
 .idea/

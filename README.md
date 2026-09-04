@@ -1,8 +1,14 @@
 # CIMFE
 
-Self-supervised patch-transformer encoder for wearable sensor streams (heart rate,
-HRV/RMSSD, temperature, SpO2, activity, hydration), used to predict change in serum
-creatinine (sCr).
+**Supplementary code for:** TODO: paper title, authors, venue/year, and a link (DOI or
+arXiv) once available.
+
+This repository covers the model-side analysis of the paper: self-supervised
+pretraining of the CIMFE patch-transformer encoder on wearable sensor streams (heart
+rate, HRV/RMSSD, temperature, SpO2, activity, hydration), embedding extraction, and
+subject-grouped RandomForest prediction of serum creatinine (sCr) change. It does
+**not** include the raw-data preprocessing step (raw device exports -> per-minute
+CSVs) or the manuscript's figure-generation notebooks.
 
 Pipeline:
 1. **Pretrain** `SCRSSL` self-supervised (masked reconstruction + an optional
@@ -15,7 +21,7 @@ Pipeline:
 ## Installation
 
 ```bash
-git clone https://github.com/TODO/CIMFE.git
+git clone https://github.com/hwseo95/CIMFE.git
 cd CIMFE
 pip install -e .
 # or: pip install -r requirements.txt
@@ -25,9 +31,10 @@ Requires Python >= 3.9 and PyTorch >= 2.0 (GPU recommended for pretraining).
 
 ## Data
 
-This repository does not include participant data. Place your data under `./data/`
-following the layout documented in [`data/README.md`](data/README.md), or point
-`--data_root` / `DATA_ROOT` at wherever it lives.
+**This repository does not include any raw or de-identified patient/participant data,
+nor any trained model checkpoints.** Place your own data under `./data/` following the
+layout documented in [`data/README.md`](data/README.md), or point `--data_root` /
+`DATA_ROOT` at wherever it lives. See `data/README.md` for the IRB/access note.
 
 ## Usage
 
